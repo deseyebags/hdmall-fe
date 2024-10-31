@@ -9,8 +9,15 @@ const Bubble = ({onClick, bubbleType, text}) => {
         <div 
         onClick={onClick} 
         className={bubbleType}
+        style={{position:"relative"}}
         >
             <div className='bubble-text'>{text}</div>
+            {/* <img 
+                src={bubbleType === "active-bubble" ? activebubble : bubble} 
+                alt="Bubble Shape" 
+                style={{ position: 'absolute'}} 
+            />
+            <span style={{ position: 'relative', zIndex: 1 }}>{text}</span> */}
             
             
         </div>
