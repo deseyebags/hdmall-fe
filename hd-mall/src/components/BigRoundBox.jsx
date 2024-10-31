@@ -11,13 +11,16 @@ const BigRoundBox = ({big,small,icon,text1,text2}) => {
     return(
         <div>
             <div className={big} >
-                <div style={{display:"flex",flexDirection:"row",alignContent:"center",justifyContent:"space-between"}}>
+                <div style={{display:"flex",flexDirection:"row",alignContent:"center",justifyContent:"space-between", position:"relative"}}>
                     <div style={{display:"block"}}>
                         <div className='text1'>{text1}</div>
                         <div className='text2'>{text2}</div>
-                        <button className='button1'><div style={{display:"flex",flexDirection:"row",justifyContent:"center", alignContent:"center"}}>View more information <img src={arrow}/></div></button>
+                        <div className='button1'>
+                            <div className='button-text'>View more information</div> 
+                            <img src={arrow}/>
+                        </div>
                     </div>
-                    <img className='doc' src={icon} alt="doctor" style={{width:"98px",height:"152px"}}/>
+                    <img className='doc' src={icon} alt="doctor"/>
                 </div>
                 
                 <div className={small}

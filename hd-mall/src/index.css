@@ -13,21 +13,23 @@ code {
 }
 
 .navbar {
+  
   position: sticky;
+  height: 61px;
   top: 0;
   width: 100%;
   background-color: white;
   overflow: hidden;
-  z-index: 1000; /* Ensures navbar stays above other content */
+  z-index: 1000; 
 }
+
 
 .navbar a {
   float: left;
   font-size: 16px;
   display: block;
   color: #879399;
-  /* text-align: center; */
-  padding: 14px 36px;
+  padding: 20px 36px;
   text-decoration: none;
 }
 
@@ -37,7 +39,14 @@ code {
 }
 
 .navbar a.active {
-  color: #338BFF;;
+  color: #338BFF;
+  align-items: center;
 }
+
+.indicator {
+  padding-top: 15px;
+}
+
+
 
 

@@ -1,7 +1,8 @@
 import { React, useState } from 'react';
 import "../index.css";
 import "../bubble.css";
-import bubble from '../resource/bubble.svg';
+import activebubble from '../resource/bubble.svg';
+import bubble from  '../resource/bubble.svg';
 
 const Bubble = ({onClick, bubbleType, text}) => {
     return(
@@ -9,7 +10,9 @@ const Bubble = ({onClick, bubbleType, text}) => {
         onClick={onClick} 
         className={bubbleType}
         >
-            <p >{text}</p>
+            <div className='bubble-text'>{text}</div>
+            
+            
         </div>
 
     )

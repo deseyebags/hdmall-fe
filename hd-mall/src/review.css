@@ -1,0 +1,36 @@
+.review-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 16.4px;
+    width: 343px;
+}
+
+.review {
+    width: 109px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    opacity: 0.8;
+    background: #F7F3FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.review-text {
+    color: #4F579A;
+    width: 65px;
+    height: 34px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 16.8px */
+}
+
+.review-svg {
+    padding-left:7px;
+    padding-right:7px;
+}

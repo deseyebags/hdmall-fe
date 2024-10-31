@@ -1,0 +1,10 @@
+.carousel{
+    display: flex;
+    flex-direction: row;               
+    justify-content: space-between;
+    width: 351px;
+    padding-left: 20px;
+    padding-top: 16px;
+    height: 128px;
+
+}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 // import "../bubble.css";
 import bubble from '../resource/bubble.svg';
+import activebubble from '../resource/activebubble.svg';
 import Bubble from './Bubble';
 
 const BubbleBar = () => {

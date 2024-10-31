@@ -1,0 +1,10 @@
+.carou-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.60);
+    padding: 4px 12px;
+    white-space: NoWrap;
+
+}

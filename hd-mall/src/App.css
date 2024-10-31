@@ -14,7 +14,7 @@
   height: 100%;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  gap: 36px; 
   margin: 0 auto;
   justify-content: center;
   /* background-color: #eee000; */
@@ -53,4 +53,113 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-graphic {
+  width: 375px;
+  height: 630px;
+  flex-shrink: 0;
+  background-image: linear-gradient(295deg, #C7D2F3 0%, #F7EDF5 99.92%);
+  border-radius: 16px;
+  margin-top: 16px;
+
+}
+
+.text-left-1 {
+  color: #2970CC;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  padding-top: 32px;
+  padding-left: 20px;
+  }
+
+.text-left-2 {
+  color: #4F579A;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 39.2px */
+  padding-top: 16px;
+  padding-left: 20px;
+  }
+
+.text-left-3 {
+  color: #16191A;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 16.8px */
+  padding-top: 16px;
+  padding-left: 20px;
+  }
+
+.text-left-4 {
+  color: #16191A;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 16.8px */
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.text-left-4 {
+  color: #16191A;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 16.8px */
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.text-left-price {
+  color: #4F579A;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 44.8px */
+  padding-left: 20px;
+}
+
+.girl {
+  position: absolute;
+  right: 0;
+  top:14px
+}
+
+.girlbg {
+  position: absolute;
+  right: 0;
+  top:95px
+}
+
+.blue-box{
+  width: 375px;
+  height: 134px;
+  flex-shrink: 0;
+  background-color: #89A6EB;
+  margin-top: 20px;
+  border-bottom-left-radius: 16px; 
+  border-bottom-right-radius: 16px;
+  
+}
+
+.blue-row-1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 16px;
+  padding-top: 20px;
+}
+
+.text-beside-logo{
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  margin-left: 8px;
 }
