@@ -1,7 +1,7 @@
 # hdmall-fe
 
-# cd hdmall
+- cd hdmall
 
-# npm install
+- npm install
 
-# npm start
+- npm start
